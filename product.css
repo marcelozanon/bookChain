@@ -1,79 +1,26 @@
-  body {
-    background-color:#f7931a;
-  }
-  
-  body {
-    font-family: Arial, sans-serif;
-    color: #000;
-  }
-  
-  .container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-  }
-  
-  h1 {
-    font-size: 28px;
-    font-weight: bold;
-    color: #000;
-    margin-bottom: 10px;
-  }
-  
-  img {
-    max-width: 100%;
-    height: 400px;
-    margin-bottom: 20px;
-  }
-  
-  p {
-    font-size: 16px;
-    color: #000;
-    margin-bottom: 20px;
-  }
-  
-  ul {
-    font-size: 16px;
-    color: #000;
-    margin-bottom: 20px;
-  }
-  
-  h2 {
-    font-size: 20px;
-    color: #000;
-    margin-bottom: 10px;
-  }
-  
-  form {
-    margin-bottom: 20px;
-  }
-  
-  button {
-    
-    font-size: 18px;
-    font-weight: bold;
-    color: #fff;
-    background-color: #000;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-    }
-
- 
-  h2 + p {
-    font-size: 14px;
-    color: #000;
-    margin-bottom: 10px;
-  }
-  
-  p {
-    font-size: 14px;
-    color: #000;
-    margin-bottom: 10px;
-  }
-
-  .navegation{
-    color: red;
-    font-weight: bolder;
-  }
-  
+<!DOCTYPE html>
+<html>
+<head>
+  <title>a companion to the bitcoin</title>
+  <link rel="stylesheet" type="text/css" href="product.css">
+</head>
+<body>
+  <h1>a companion to the bitcoin</h1>
+  <img src="cover.jpg" alt="Book Cover Image">
+  <h2>Description</h2>
+  <p>The ultimate guide to BTC! Learn once and for all how the "old daddy" of cryptocurrency works.</p>
+  <h2>Key Features</h2>
+  <ul>
+    <li>you will finally undesratand what is bitcoin</li>
+    <li>lear how btc works</li>
+    <li>receive a practical guide of how to buy, mine, trade, save and use bitcoin</li>
+  </ul>
+  <h2>Price: 500000 SATS</h2>
+  <p class="navegation">(please click on the banner bellow)</p>
+  <a href="BookChain.png">
+    <button type="submit">
+      click here and buy with us at <strong>bookChain</strong> using <strong>BTC</strong> and the author will get 75% of the cover price in royalties. if you buy at a tradicional bookstore, they will get in average only 7.5% of the book cover in royalties
+    </button>
+  </a>
+   </body>
+</html>
